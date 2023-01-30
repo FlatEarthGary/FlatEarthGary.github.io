@@ -1,0 +1,30 @@
+body {
+    background-color: indigo;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+    color: whitesmoke;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 900px)
+{
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100%;
+    }
+}
